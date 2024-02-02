@@ -8,6 +8,256 @@
     <link rel="stylesheet" href="output.css" />
   </head>
   <body>
-    <h1 class="text-red-800  font-bold  flex  justify-center">Check the telwind Apply</h1>
+    <!-- ---------------------create navbar---------------------------------------------------------------- -->
+
+    <nav class="flex justify-center py-4 md+:py-[18px] px-4 md+:px-8">
+      <div class="w-full max-w-[1231px] flex justify-between">
+        <a href="/global">
+          <svg
+            fill="none"
+            viewBox="0 0 141 34"
+            height="36"
+            astro-icon="juspay_black"
+          >
+            <g clip-path="url(#astroicon:juspay_blacka)">
+              <path
+                fill="#09F"
+                d="M15.818 32.154c-.718.02-1.417-.041-2.136-.144-1.936-.289-3.752-.927-5.428-1.979-3.713-2.308-6.088-5.667-7.066-10.078-.22-.989-.32-1.999-.32-3.008-.02-4.04 1.258-7.585 3.853-10.594 2.255-2.596 5.05-4.183 8.343-4.843.918-.185 1.836-.288 2.754-.247v4.616c-.04.021-.08.042-.12.083a30.33 30.33 0 0 0-1.597 1.236c-1.177.99-2.295 2.04-3.233 3.298-1.257 1.67-2.096 3.503-2.215 5.667-.06 1.03.06 2.04.379 3.01.778 2.41 3.193 4.904 6.586 4.966.2 0 .24.041.24.268-.02 1.051-.02 3.153-.02 3.153v.186c-.02 1.463-.02 2.926-.02 4.41Z"
+              ></path>
+              <path
+                fill="#0585DD"
+                d="M15.818 5.858V1.242c.818-.02 1.617.062 2.415.185 1.497.248 2.934.701 4.291 1.422 2.814 1.505 5.03 3.648 6.527 6.575a15.86 15.86 0 0 1 1.637 5.358c.259 2.205.06 4.39-.58 6.513-.738 2.411-1.975 4.534-3.712 6.327-2.115 2.164-4.63 3.565-7.544 4.204-.998.206-2.016.33-3.034.31v-4.597s.06-.04.08-.062c1.557-1.133 3.034-2.37 4.311-3.853.838-.97 1.557-2 2.056-3.195.698-1.69.978-3.421.619-5.255-.64-3.339-3.533-5.833-6.866-5.915-.22 0-.2-.186-.2-.186V5.858Z"
+              ></path>
+              <path
+                fill="#444"
+                d="M47.458 5.568v15.828c0 .865-.14 1.69-.399 2.494a6.304 6.304 0 0 1-1.197 2.122c-.54.619-1.198 1.093-1.996 1.463-.799.35-1.737.536-2.775.536-1.676 0-3.053-.412-4.111-1.216-1.078-.803-1.777-2.081-2.116-3.833l3.533-.866c.12.722.399 1.299.858 1.732.44.433.998.639 1.657.639 1.077 0 1.816-.371 2.195-1.134.38-.742.579-1.793.579-3.112V5.568h3.772Zm7.505 0v13.726c0 .535.08 1.092.24 1.69.159.577.418 1.133.798 1.628.359.494.858.907 1.477 1.216.598.33 1.357.474 2.255.474.898 0 1.657-.165 2.255-.474a4.365 4.365 0 0 0 1.477-1.216c.36-.495.64-1.03.799-1.628.16-.598.24-1.155.24-1.69V5.568h3.771v13.85h-.02c0 1.318-.219 2.514-.658 3.565a7.895 7.895 0 0 1-1.796 2.7 7.703 7.703 0 0 1-2.695 1.71c-1.038.412-2.175.598-3.393.598-1.217 0-2.355-.206-3.373-.598a7.974 7.974 0 0 1-2.715-1.71c-.778-.742-1.377-1.65-1.796-2.7-.439-1.051-.639-2.247-.639-3.566V5.568h3.773Zm24.29-.556c1.118 0 2.195.185 3.253.515a7.579 7.579 0 0 1 2.835 1.73l-2.795 3.01a3.617 3.617 0 0 0-1.597-1.32 5.311 5.311 0 0 0-2.115-.411c-.44 0-.858.062-1.278.165a3.17 3.17 0 0 0-1.097.494c-.34.227-.599.515-.799.886-.2.371-.299.784-.299 1.278 0 .742.24 1.32.758 1.69a6.697 6.697 0 0 0 1.857 1.01c.738.289 1.537.577 2.415.845a10.12 10.12 0 0 1 2.435 1.113c.738.474 1.357 1.113 1.856 1.875.499.783.758 1.835.758 3.112 0 1.175-.2 2.205-.618 3.071-.42.886-.978 1.608-1.697 2.185a7.348 7.348 0 0 1-2.475 1.298c-.938.288-1.936.433-2.954.433-1.317 0-2.594-.227-3.792-.68-1.218-.454-2.275-1.216-3.154-2.288l2.855-2.844a4.848 4.848 0 0 0 1.816 1.69 4.848 4.848 0 0 0 2.375.598c.44 0 .878-.062 1.317-.186.44-.123.839-.309 1.198-.556.36-.248.638-.557.858-.948.22-.371.34-.825.34-1.32 0-.803-.26-1.421-.76-1.854-.498-.433-1.117-.804-1.855-1.093a33.883 33.883 0 0 0-2.435-.844 10.016 10.016 0 0 1-2.415-1.093 5.775 5.775 0 0 1-1.856-1.855c-.5-.783-.759-1.813-.759-3.111 0-1.134.22-2.103.679-2.927a6.218 6.218 0 0 1 1.776-2.061 7.678 7.678 0 0 1 2.495-1.216 10.405 10.405 0 0 1 2.874-.391Zm45.267.556 5.21 8.718 5.269-8.718h4.491l-7.964 12.53v9.378h-3.772v-9.378l-7.964-12.53h4.73Zm-28.8 0c1.017 0 1.995.103 2.953.31a7.38 7.38 0 0 1 2.495 1.03 5.289 5.289 0 0 1 1.717 1.937c.419.824.638 1.834.638 3.05 0 1.38-.239 2.494-.698 3.339-.459.845-1.078 1.504-1.857 1.958a7.75 7.75 0 0 1-2.714.948 20.329 20.329 0 0 1-3.213.247h-2.695v9.068h-3.772V5.568h7.145Zm18.302 0 9.141 21.887h-4.311l-1.976-5.008h-9.181l-1.916 5.008h-4.232l9.221-21.887h3.254Zm-1.737 4.637-3.313 8.903h6.587l-3.274-8.903ZM95.041 8.907h-2.695v6.162h2.295c.54 0 1.098-.02 1.677-.062a4.92 4.92 0 0 0 1.597-.371c.479-.206.878-.515 1.197-.927.3-.413.46-.99.46-1.732 0-.68-.14-1.216-.42-1.628a2.637 2.637 0 0 0-1.078-.927c-.439-.227-.938-.35-1.477-.412a13.744 13.744 0 0 0-1.556-.103Z"
+              ></path>
+            </g>
+            <defs>
+              <clipPath id="astroicon:juspay_blacka">
+                <path
+                  fill="#fff"
+                  d="M0 0h140v34H0z"
+                  transform="translate(.85)"
+                ></path>
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+        <div>
+          <div class="hidden md+:flex items-center gap-10">
+            <ul
+              class="flex items-center gap-10 text-[#3A3C42] hover:text-black"
+            >
+              <a
+                class="font-medium text-base leading-[1.2]"
+                target="_blank"
+                href="/"
+              >
+                Home </a
+              ><a
+                class="font-medium text-base leading-[1.2] lg-md:before:content-['Developer'] max-md+:before:content-['Developer']"
+                target="_blank"
+                href="https://docs.global.juspay.in"
+              >
+                Docs </a
+              ><a
+                class="font-medium text-base leading-[1.2]"
+                target="_blank"
+                href="/blog"
+              >
+                Blog
+              </a>
+            </ul>
+            <div class="relative" data-eventname="global_signup_click">
+              <a
+                class="flex items-center w-full max-w-max px-[18px] bg-[linear-gradient(153deg,#006BF4_0%,#0070FF_100%)] gap-3 rounded-lg after:rounded-lg before:rounded-lg transition-[filter] ease-in drop-shadow-[0px_1px_4px_rgba(68,68,68,0.24)] hover:drop-shadow-[0px_3px_8px_rgba(68,68,68,0.18)] active:drop-shadow-none h-9 after:bg-[linear-gradient(159deg,#006BF4_0%,#2C88FF_100%)] after:z-[-1] after:content-[''] after:absolute after:top-0 after:bottom-0 after:right-0 after:left-0 after:opacity-0 after:transition-[background-image,opacity] hover:after:opacity-100 hover:after:duration-1000 before:bg-[linear-gradient(163deg,#035CCD_0%,#156FE3_100%)] before:z-[-1] before:content-[''] before:absolute before:top-0 before:bottom-0 before:right-0 before:left-0 before:opacity-0 before:transition-[background-image,opacity] active:before:opacity-100 active:before:duration-1000"
+                target="_blank"
+                href="https://forms.zohopublic.com/juspay/form/ProductEnquiry/formperma/ldxizrM6mkPTED7P_RJWiV8HkWf-fkm1brS4EZHIi6w"
+              >
+                <span
+                  class="font-medium text-white text-center text-[16px] leading-[19px]"
+                >
+                  Sign Up Now
+                </span>
+              </a>
+            </div>
+          </div>
+          <div>
+            <svg
+              fill="none"
+              viewBox="0 0 32 32"
+              height="32"
+              width="32"
+              onclick="toggleMenu()"
+              class="block md+:hidden cursor-pointer"
+              astro-icon="hamburger"
+            >
+              <path
+                fill="#343538"
+                d="M4 6.57h24v1.714H4zM4 15.141h24v1.714H4zM4 23.711h24v1.714H4z"
+              ></path>
+            </svg>
+            <div
+              id="navbar-menu"
+              class="hidden z-20 absolute top-0 left-0 h-full w-full flex flex-col bg-white"
+            >
+              <div
+                class="p-4 flex justify-between items-center border-b border-solid border-[#ECEDF1]"
+              >
+                <a href="/global">
+                  <svg
+                    fill="none"
+                    viewBox="0 0 141 34"
+                    height="36"
+                    astro-icon="juspay_black"
+                  >
+                    <g clip-path="url(#astroicon:juspay_blacka)">
+                      <path
+                        fill="#09F"
+                        d="M15.818 32.154c-.718.02-1.417-.041-2.136-.144-1.936-.289-3.752-.927-5.428-1.979-3.713-2.308-6.088-5.667-7.066-10.078-.22-.989-.32-1.999-.32-3.008-.02-4.04 1.258-7.585 3.853-10.594 2.255-2.596 5.05-4.183 8.343-4.843.918-.185 1.836-.288 2.754-.247v4.616c-.04.021-.08.042-.12.083a30.33 30.33 0 0 0-1.597 1.236c-1.177.99-2.295 2.04-3.233 3.298-1.257 1.67-2.096 3.503-2.215 5.667-.06 1.03.06 2.04.379 3.01.778 2.41 3.193 4.904 6.586 4.966.2 0 .24.041.24.268-.02 1.051-.02 3.153-.02 3.153v.186c-.02 1.463-.02 2.926-.02 4.41Z"
+                      ></path>
+                      <path
+                        fill="#0585DD"
+                        d="M15.818 5.858V1.242c.818-.02 1.617.062 2.415.185 1.497.248 2.934.701 4.291 1.422 2.814 1.505 5.03 3.648 6.527 6.575a15.86 15.86 0 0 1 1.637 5.358c.259 2.205.06 4.39-.58 6.513-.738 2.411-1.975 4.534-3.712 6.327-2.115 2.164-4.63 3.565-7.544 4.204-.998.206-2.016.33-3.034.31v-4.597s.06-.04.08-.062c1.557-1.133 3.034-2.37 4.311-3.853.838-.97 1.557-2 2.056-3.195.698-1.69.978-3.421.619-5.255-.64-3.339-3.533-5.833-6.866-5.915-.22 0-.2-.186-.2-.186V5.858Z"
+                      ></path>
+                      <path
+                        fill="#444"
+                        d="M47.458 5.568v15.828c0 .865-.14 1.69-.399 2.494a6.304 6.304 0 0 1-1.197 2.122c-.54.619-1.198 1.093-1.996 1.463-.799.35-1.737.536-2.775.536-1.676 0-3.053-.412-4.111-1.216-1.078-.803-1.777-2.081-2.116-3.833l3.533-.866c.12.722.399 1.299.858 1.732.44.433.998.639 1.657.639 1.077 0 1.816-.371 2.195-1.134.38-.742.579-1.793.579-3.112V5.568h3.772Zm7.505 0v13.726c0 .535.08 1.092.24 1.69.159.577.418 1.133.798 1.628.359.494.858.907 1.477 1.216.598.33 1.357.474 2.255.474.898 0 1.657-.165 2.255-.474a4.365 4.365 0 0 0 1.477-1.216c.36-.495.64-1.03.799-1.628.16-.598.24-1.155.24-1.69V5.568h3.771v13.85h-.02c0 1.318-.219 2.514-.658 3.565a7.895 7.895 0 0 1-1.796 2.7 7.703 7.703 0 0 1-2.695 1.71c-1.038.412-2.175.598-3.393.598-1.217 0-2.355-.206-3.373-.598a7.974 7.974 0 0 1-2.715-1.71c-.778-.742-1.377-1.65-1.796-2.7-.439-1.051-.639-2.247-.639-3.566V5.568h3.773Zm24.29-.556c1.118 0 2.195.185 3.253.515a7.579 7.579 0 0 1 2.835 1.73l-2.795 3.01a3.617 3.617 0 0 0-1.597-1.32 5.311 5.311 0 0 0-2.115-.411c-.44 0-.858.062-1.278.165a3.17 3.17 0 0 0-1.097.494c-.34.227-.599.515-.799.886-.2.371-.299.784-.299 1.278 0 .742.24 1.32.758 1.69a6.697 6.697 0 0 0 1.857 1.01c.738.289 1.537.577 2.415.845a10.12 10.12 0 0 1 2.435 1.113c.738.474 1.357 1.113 1.856 1.875.499.783.758 1.835.758 3.112 0 1.175-.2 2.205-.618 3.071-.42.886-.978 1.608-1.697 2.185a7.348 7.348 0 0 1-2.475 1.298c-.938.288-1.936.433-2.954.433-1.317 0-2.594-.227-3.792-.68-1.218-.454-2.275-1.216-3.154-2.288l2.855-2.844a4.848 4.848 0 0 0 1.816 1.69 4.848 4.848 0 0 0 2.375.598c.44 0 .878-.062 1.317-.186.44-.123.839-.309 1.198-.556.36-.248.638-.557.858-.948.22-.371.34-.825.34-1.32 0-.803-.26-1.421-.76-1.854-.498-.433-1.117-.804-1.855-1.093a33.883 33.883 0 0 0-2.435-.844 10.016 10.016 0 0 1-2.415-1.093 5.775 5.775 0 0 1-1.856-1.855c-.5-.783-.759-1.813-.759-3.111 0-1.134.22-2.103.679-2.927a6.218 6.218 0 0 1 1.776-2.061 7.678 7.678 0 0 1 2.495-1.216 10.405 10.405 0 0 1 2.874-.391Zm45.267.556 5.21 8.718 5.269-8.718h4.491l-7.964 12.53v9.378h-3.772v-9.378l-7.964-12.53h4.73Zm-28.8 0c1.017 0 1.995.103 2.953.31a7.38 7.38 0 0 1 2.495 1.03 5.289 5.289 0 0 1 1.717 1.937c.419.824.638 1.834.638 3.05 0 1.38-.239 2.494-.698 3.339-.459.845-1.078 1.504-1.857 1.958a7.75 7.75 0 0 1-2.714.948 20.329 20.329 0 0 1-3.213.247h-2.695v9.068h-3.772V5.568h7.145Zm18.302 0 9.141 21.887h-4.311l-1.976-5.008h-9.181l-1.916 5.008h-4.232l9.221-21.887h3.254Zm-1.737 4.637-3.313 8.903h6.587l-3.274-8.903ZM95.041 8.907h-2.695v6.162h2.295c.54 0 1.098-.02 1.677-.062a4.92 4.92 0 0 0 1.597-.371c.479-.206.878-.515 1.197-.927.3-.413.46-.99.46-1.732 0-.68-.14-1.216-.42-1.628a2.637 2.637 0 0 0-1.078-.927c-.439-.227-.938-.35-1.477-.412a13.744 13.744 0 0 0-1.556-.103Z"
+                      ></path>
+                    </g>
+                    <defs>
+                      <clipPath id="astroicon:juspay_blacka">
+                        <path
+                          fill="#fff"
+                          d="M0 0h140v34H0z"
+                          transform="translate(.85)"
+                        ></path>
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+                <svg
+                  fill="none"
+                  viewBox="0 0 30 30"
+                  height="30"
+                  width="30"
+                  onclick="toggleMenu()"
+                  class="cursor-pointer text-[#C5C3C3] hover:text-[#006BF4]"
+                  astro-icon="cross"
+                >
+                  <g
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-miterlimit="10"
+                    stroke-width="1.7"
+                  >
+                    <path
+                      d="M20.303 9.697 9.696 20.304M9.697 9.697l10.607 10.607"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <ul
+                class="flex flex-col gap-[30px] text-[#3A3C42] hover:text-black py-5 px-4"
+              >
+                <a
+                  class="font-medium text-[22px] leading-[1.4]"
+                  target="_blank"
+                  href="/"
+                  onclick="toggleMenu()"
+                >
+                  Home </a
+                ><a
+                  class="font-medium text-[22px] leading-[1.4] lg-md:before:content-['Developer'] max-md+:before:content-['Developer']"
+                  target="_blank"
+                  href="https://docs.global.juspay.in"
+                  onclick="toggleMenu()"
+                >
+                  Docs </a
+                ><a
+                  class="font-medium text-[22px] leading-[1.4]"
+                  target="_blank"
+                  href="/blog"
+                  onclick="toggleMenu()"
+                >
+                  Blog
+                </a>
+              </ul>
+              <div class="px-4 pt-[14px]">
+                <div class="relative" data-eventname="global_signup_click">
+                  <a
+                    class="flex items-center w-full max-w-max px-[18px] bg-[linear-gradient(153deg,#006BF4_0%,#0070FF_100%)] gap-3 rounded-lg after:rounded-lg before:rounded-lg transition-[filter] ease-in drop-shadow-[0px_1px_4px_rgba(68,68,68,0.24)] hover:drop-shadow-[0px_3px_8px_rgba(68,68,68,0.18)] active:drop-shadow-none h-10 after:bg-[linear-gradient(159deg,#006BF4_0%,#2C88FF_100%)] after:z-[-1] after:content-[''] after:absolute after:top-0 after:bottom-0 after:right-0 after:left-0 after:opacity-0 after:transition-[background-image,opacity] hover:after:opacity-100 hover:after:duration-1000 before:bg-[linear-gradient(163deg,#035CCD_0%,#156FE3_100%)] before:z-[-1] before:content-[''] before:absolute before:top-0 before:bottom-0 before:right-0 before:left-0 before:opacity-0 before:transition-[background-image,opacity] active:before:opacity-100 active:before:duration-1000"
+                    target="_blank"
+                    href="https://forms.zohopublic.com/juspay/form/ProductEnquiry/formperma/ldxizrM6mkPTED7P_RJWiV8HkWf-fkm1brS4EZHIi6w"
+                  >
+                    <span
+                      class="font-medium text-white text-center text-[16px] leading-[19px]"
+                    >
+                      Sign Up Now
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- -----------------------------------main container---------------------------------------------------------------- -->
+
+    <main
+      style="
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+        border-color: #e5e7eb;
+      "
+    >
+      <div class="flex flex-col items-center">
+        <div
+          class="flex flex-col items-center gap-2 px-4 sm:px-8 pt-[72px] sm:pt-[90px] pb-6 sm:pb-8"
+        >
+          <div
+            class="w-full font-bold text-[40px] sm:text-[64px] text-center leading-none -tracking-[0.5px] sm:tracking-[-0.03em] text-black sm:text-[#151A1F]"
+          >
+            <span class="whitespace-nowrap">All-in-One</span>
+            <span class="whitespace-nowrap">Payments Suite</span>
+          </div>
+          <div
+            class="font-normal text-[24px] sm:text-[32px] leading-[1.2] sm:leading-none text-center text-[#343538]"
+          >
+            <span class="whitespace-nowrap">Elevate Experience.</span>
+            <span class="whitespace-nowrap">Boost Conversion.</span>
+            <span class="whitespace-nowrap">Drive Growth</span>
+          </div>
+        </div>
+        <div class="relative">
+          <a
+            class="flex items-center w-full max-w-max px-[18px] bg-[linear-gradient(153deg,#006BF4_0%,#0070FF_100%)] gap-3 rounded-lg after:rounded-lg before:rounded-lg transition-[filter] ease-in drop-shadow-[0px_1px_4px_rgba(68,68,68,0.24)] hover:drop-shadow-[0px_3px_8px_rgba(68,68,68,0.18)] active:drop-shadow-none h-[44px] after:bg-[linear-gradient(159deg,#006BF4_0%,#2C88FF_100%)] after:z-[-1] after:content-[''] after:absolute after:top-0 after:bottom-0 after:right-0 after:left-0 after:opacity-0 after:transition-[background-image,opacity] hover:after:opacity-100 hover:after:duration-1000 before:bg-[linear-gradient(163deg,#035CCD_0%,#156FE3_100%)] before:z-[-1] before:content-[''] before:absolute before:top-0 before:bottom-0 before:right-0 before:left-0 before:opacity-0 before:transition-[background-image,opacity] active:before:opacity-100 active:before:duration-1000"
+            target="_blank"
+            href="#"
+          >
+            <span
+              class="font-medium text-white text-center text-[16px] leading-[19px]"
+            >
+              Sign Up Now
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="flex flex-col items-center">
+        <video
+          class="h-[640px]"
+          src="../dist/Assets/Vedios/hero.987a5e92.mp4"
+          autoplay
+          loop
+          muted="true"
+          playsinline
+        ></video>
+      </div>
+    </main>
   </body>
 </html>
